@@ -1,7 +1,0 @@
-{
-  "name": "Raven Auto Labeler",
-  "description": "Automatically labels Issues and PRs based on paths or title keywords. Requires .github/labeler.yml",
-  "iconName": "tag",
-  "categories": ["Utilities"],
-  "filePatterns": [".github/labeler.yml"]
-}

@@ -1,6 +1,0 @@
-{
-  "name": "Raven Thank Contributors",
-  "description": "Automatically comment on merged PRs to thank contributors.",
-  "iconName": "heart",
-  "categories": ["Community"]
-}

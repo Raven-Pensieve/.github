@@ -1,6 +1,0 @@
-{
-  "name": "Raven Lock Threads",
-  "description": "Automatically lock old closed Issues and PRs after a year of inactivity.",
-  "iconName": "lock",
-  "categories": ["Utilities"]
-}
