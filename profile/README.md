@@ -18,8 +18,6 @@
 
 </div>
 
----
-
 ## ✨ 关于我们 | About Us
 
 **Raven-Pensieve** —— 一个专注于 **Obsidian** 插件与工具开发的开源组织。
