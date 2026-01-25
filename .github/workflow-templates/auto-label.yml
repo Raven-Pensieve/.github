@@ -1,6 +1,3 @@
-# 自动为 Issue 和 PR 添加标签
-# Automatically label Issues and PRs
-
 name: Auto Label
 
 on:

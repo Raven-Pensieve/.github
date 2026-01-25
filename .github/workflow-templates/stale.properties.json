@@ -1,0 +1,6 @@
+{
+  "name": "Raven Stale Bot",
+  "description": "Automatically mark and close stale Issues/PRs after inactivity.",
+  "iconName": "clock",
+  "categories": ["Utilities"]
+}

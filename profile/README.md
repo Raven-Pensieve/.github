@@ -18,14 +18,13 @@
 
 </div>
 
-## ✨ 关于我们 | About Us
+## ✨ About Us
 
-**Raven-Pensieve** —— 一个专注于 **Obsidian** 插件与工具开发的开源组织。
+**Raven-Pensieve** is an open-source organization dedicated to developing plugins and tools for **[Obsidian](https://obsidian.md/)**.  
 
-我们的名字源自哈利波特中的「冥想盆」(Pensieve)，象征着知识的存储与回溯。我们致力于通过精心设计的插件，让 Obsidian 成为更强大的第二大脑。
+Our name is inspired by the "Pensieve" from Harry Potter, symbolizing the storage and retrieval of knowledge. We are committed to transforming Obsidian into a more powerful second brain through thoughtfully designed plugins.
 
 > *Memories and thoughts, stored and reviewed.* ✨
-
 
 **⭐ Star our projects if they help you!**
 
