@@ -6,9 +6,6 @@ contact_links:
   - name: 💬 WeChat Group | 微信讨论群
     url: https://qrcode.ravenhogwarts.top/obsidian
     about: Join our WeChat discussion group. | 加入微信讨论群。
-  - name: 🔒 Security Issue | 安全问题
-    url: https://github.com/Raven-Pensieve/.github/security/policy
-    about: Report security vulnerabilities privately. | 私密报告安全漏洞。
   - name: 💖 Sponsor | 赞助支持
     url: https://ko-fi.com/ravenhogwarts
     about: Support our work by sponsoring. | 通过赞助支持我们的工作。
