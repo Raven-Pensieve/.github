@@ -1,0 +1,58 @@
+# PR 文件路径标签配置
+# Label configuration for PR file paths
+
+# 文档更改
+documentation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "*.md"
+          - "docs/**/*"
+          - ".github/**/*.md"
+
+# 源代码更改
+source:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "src/**/*"
+
+# 样式更改
+styles:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "**/*.css"
+          - "**/*.scss"
+          - "**/*.less"
+          - "styles/**/*"
+
+# 测试更改
+tests:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "tests/**/*"
+          - "**/*.test.ts"
+          - "**/*.spec.ts"
+
+# 配置文件更改
+config:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "*.json"
+          - "*.yml"
+          - "*.yaml"
+          - ".github/**/*"
+          - "!.github/**/*.md"
+
+# CI/CD 更改
+ci:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/workflows/**/*"
+
+# 依赖更改
+dependencies:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "package.json"
+          - "package-lock.json"
+          - "pnpm-lock.yaml"
+          - "yarn.lock"

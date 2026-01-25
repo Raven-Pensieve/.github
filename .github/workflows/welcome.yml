@@ -1,0 +1,67 @@
+# 欢迎新贡献者的 GitHub Action
+# Welcome new contributors
+
+name: Welcome New Contributors
+
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            👋 **欢迎来到 Raven-Pensieve！**
+
+            感谢你提交这个 Issue！我们会尽快查看并回复。
+
+            在等待的同时，请确保：
+            - ✅ 你已经查阅了 [文档](https://docs.ravenhogwarts.top)
+            - ✅ 你已经搜索过类似的 Issue
+            - ✅ 你提供了足够的信息来帮助我们理解问题
+
+            ---
+
+            👋 **Welcome to Raven-Pensieve!**
+
+            Thanks for opening this issue! We'll review and respond as soon as possible.
+
+            While you wait, please make sure:
+            - ✅ You've checked the [documentation](https://docs.ravenhogwarts.top)
+            - ✅ You've searched for similar issues
+            - ✅ You've provided enough information to help us understand the problem
+
+          pr-message: |
+            👋 **感谢你的贡献！**
+
+            这是你对 Raven-Pensieve 的第一个 Pull Request！🎉
+
+            我们会尽快审查你的代码。请确保：
+            - ✅ 你的代码遵循项目的编码规范
+            - ✅ 你已经测试过你的更改
+            - ✅ 你已经更新了相关文档（如需要）
+
+            如果你有任何问题，请随时在 PR 中留言！
+
+            ---
+
+            👋 **Thanks for your contribution!**
+
+            This is your first Pull Request to Raven-Pensieve! 🎉
+
+            We'll review your code as soon as possible. Please make sure:
+            - ✅ Your code follows the project's coding standards
+            - ✅ You've tested your changes
+            - ✅ You've updated relevant documentation (if needed)
+
+            Feel free to leave a comment in the PR if you have any questions!

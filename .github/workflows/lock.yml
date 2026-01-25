@@ -1,0 +1,50 @@
+# 自动关闭锁定旧的 Issues 和 PRs
+# Automatically lock old closed Issues and PRs
+
+name: Lock Threads
+
+on:
+  schedule:
+    # 每周日 UTC 时间 0:00 运行 (北京时间周日 8:00)
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  lock:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dessant/lock-threads@v5
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Issue 设置
+          issue-inactive-days: "365"
+          issue-lock-reason: "resolved"
+          issue-comment: |
+            🔒 这个 Issue 已自动锁定，因为它已关闭超过一年且没有最近的活动。
+
+            如果你仍有相关问题，请开启一个新的 Issue 并引用这个 Issue。
+
+            ---
+
+            🔒 This issue has been automatically locked since it has been closed for more than a year with no recent activity.
+
+            If you have a related issue, please open a new issue and reference this one.
+
+          # PR 设置
+          pr-inactive-days: "365"
+          pr-lock-reason: "resolved"
+          pr-comment: |
+            🔒 这个 PR 已自动锁定，因为它已关闭超过一年且没有最近的活动。
+
+            如果你想继续这项工作，请开启一个新的 PR。
+
+            ---
+
+            🔒 This PR has been automatically locked since it has been closed for more than a year with no recent activity.
+
+            If you want to continue this work, please open a new PR.

@@ -1,0 +1,10 @@
+# CODEOWNERS
+# This file defines the default owners for code in the repository.
+# These owners will be requested for review when someone opens a pull request.
+
+# Default owners for everything in the repo
+* @RavenHogWarts
+
+# Specific paths can have different owners
+# /docs/ @doc-team
+# /src/core/ @core-team
