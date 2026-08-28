@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/GitHub-Raven--Pensieve-181717?style=for-the-badge&logo=github" alt="GitHub"/>
 </a>
 <a href="https://docs.ravenhogwarts.top">
-  <img src="https://img.shields.io/badge/Docs-文档站-4051B5?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Docs"/>
+  <img src="https://img.shields.io/badge/Docs-Website-4051B5?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Docs"/>
 </a>
 <a href="https://ko-fi.com/ravenhogwarts">
   <img src="https://img.shields.io/badge/Ko--fi-Support-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi"/>
